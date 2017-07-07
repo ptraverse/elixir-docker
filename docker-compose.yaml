@@ -11,3 +11,8 @@ services:
       - "4000:4000"
     depends_on:
       - db
+  koans:
+    build: ./elixir-koans
+    volumes:
+      - .:/app
+    command: mix meditate --no-clear-screen

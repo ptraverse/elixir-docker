@@ -7,10 +7,26 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute Search Pattern:
+~MSle0~&\'
+
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
+:q
+:w
+:37
+:s/\'//g
+:17
+:set number
+:8
 :wq
+:34
+:15
 
 # Search String History (newest to oldest):
+? \'
 
 # Expression History (newest to oldest):
 
@@ -19,33 +35,181 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""-	CHAR	0
+	___
 
 # File marks:
-'0  13  9  ~/docker-compose.yaml
-'1  14  0  ~/Dockerfile
+'0  37  44  ~/elixir-koans/lib/koans/03_numbers.ex
+'1  45  2  ~/elixir-koans/lib/koans/02_strings.ex
+'2  39  2  ~/elixir-koans/lib/koans/01_equalities.ex
+'3  18  24  ~/docker-compose.yaml
+'4  13  17  ~/Dockerfile
+'5  7  14  ~/docker-compose.yaml
+'6  1  0  ~/docker-compose.yaml
+'7  4  0  ~/Dockerfile
+'8  13  9  ~/docker-compose.yaml
+'9  17  0  ~/Dockerfile
 
 # Jumplist (newest first):
--'  13  9  ~/docker-compose.yaml
+-'  37  44  ~/elixir-koans/lib/koans/03_numbers.ex
+-'  17  4  ~/elixir-koans/lib/koans/03_numbers.ex
+-'  1  0  ~/elixir-koans/lib/koans/03_numbers.ex
+-'  45  2  ~/elixir-koans/lib/koans/02_strings.ex
+-'  1  0  ~/elixir-koans/lib/koans/02_strings.ex
+-'  39  2  ~/elixir-koans/lib/koans/01_equalities.ex
+-'  1  0  ~/elixir-koans/lib/koans/01_equalities.ex
+-'  18  24  ~/docker-compose.yaml
+-'  13  17  ~/Dockerfile
+-'  1  0  ~/Dockerfile
+-'  7  14  ~/docker-compose.yaml
 -'  1  0  ~/docker-compose.yaml
--'  14  0  ~/Dockerfile
+-'  4  0  ~/Dockerfile
+-'  13  9  ~/docker-compose.yaml
+-'  17  0  ~/Dockerfile
 -'  11  10  ~/Dockerfile
 -'  14  0  ~/Dockerfile
+-'  18  24  ~/docker-compose.yaml
+-'  13  17  ~/Dockerfile
+-'  1  0  ~/Dockerfile
+-'  7  14  ~/docker-compose.yaml
+-'  1  0  ~/docker-compose.yaml
+-'  4  0  ~/Dockerfile
+-'  13  9  ~/docker-compose.yaml
+-'  17  0  ~/Dockerfile
 -'  11  10  ~/Dockerfile
+-'  14  0  ~/Dockerfile
+-'  39  2  ~/elixir-koans/lib/koans/01_equalities.ex
+-'  1  0  ~/elixir-koans/lib/koans/01_equalities.ex
+-'  18  24  ~/docker-compose.yaml
+-'  13  17  ~/Dockerfile
+-'  1  0  ~/Dockerfile
+-'  7  14  ~/docker-compose.yaml
+-'  1  0  ~/docker-compose.yaml
+-'  4  0  ~/Dockerfile
+-'  13  9  ~/docker-compose.yaml
+-'  17  0  ~/Dockerfile
+-'  11  10  ~/Dockerfile
+-'  14  0  ~/Dockerfile
+-'  18  24  ~/docker-compose.yaml
+-'  13  17  ~/Dockerfile
+-'  1  0  ~/Dockerfile
+-'  7  14  ~/docker-compose.yaml
+-'  1  0  ~/docker-compose.yaml
+-'  4  0  ~/Dockerfile
+-'  13  9  ~/docker-compose.yaml
+-'  17  0  ~/Dockerfile
+-'  11  10  ~/Dockerfile
+-'  14  0  ~/Dockerfile
+-'  45  2  ~/elixir-koans/lib/koans/02_strings.ex
+-'  1  0  ~/elixir-koans/lib/koans/02_strings.ex
+-'  39  2  ~/elixir-koans/lib/koans/01_equalities.ex
+-'  1  0  ~/elixir-koans/lib/koans/01_equalities.ex
+-'  18  24  ~/docker-compose.yaml
+-'  13  17  ~/Dockerfile
+-'  1  0  ~/Dockerfile
+-'  7  14  ~/docker-compose.yaml
+-'  1  0  ~/docker-compose.yaml
+-'  4  0  ~/Dockerfile
+-'  13  9  ~/docker-compose.yaml
+-'  17  0  ~/Dockerfile
+-'  11  10  ~/Dockerfile
+-'  14  0  ~/Dockerfile
+-'  18  24  ~/docker-compose.yaml
+-'  13  17  ~/Dockerfile
+-'  1  0  ~/Dockerfile
+-'  7  14  ~/docker-compose.yaml
+-'  1  0  ~/docker-compose.yaml
+-'  4  0  ~/Dockerfile
+-'  13  9  ~/docker-compose.yaml
+-'  17  0  ~/Dockerfile
+-'  11  10  ~/Dockerfile
+-'  14  0  ~/Dockerfile
+-'  39  2  ~/elixir-koans/lib/koans/01_equalities.ex
+-'  1  0  ~/elixir-koans/lib/koans/01_equalities.ex
+-'  18  24  ~/docker-compose.yaml
+-'  13  17  ~/Dockerfile
+-'  1  0  ~/Dockerfile
+-'  7  14  ~/docker-compose.yaml
+-'  1  0  ~/docker-compose.yaml
+-'  4  0  ~/Dockerfile
+-'  13  9  ~/docker-compose.yaml
+-'  17  0  ~/Dockerfile
+-'  11  10  ~/Dockerfile
+-'  14  0  ~/Dockerfile
+-'  18  24  ~/docker-compose.yaml
+-'  13  17  ~/Dockerfile
+-'  1  0  ~/Dockerfile
+-'  7  14  ~/docker-compose.yaml
+-'  1  0  ~/docker-compose.yaml
+-'  4  0  ~/Dockerfile
+-'  13  9  ~/docker-compose.yaml
+-'  17  0  ~/Dockerfile
+-'  11  10  ~/Dockerfile
+-'  14  0  ~/Dockerfile
 
 # History of marks within files (newest to oldest):
 
-> ~/docker-compose.yaml
-	"	13	9
-	^	13	10
-	.	13	0
-	+	13	0
+> ~/elixir-koans/lib/koans/03_numbers.ex
+	"	37	44
+	^	37	45
+	.	37	44
+	+	8	36
+	+	12	36
+	+	17	52
+	+	23	24
+	+	29	32
+	+	33	41
+	+	8	35
+	+	17	0
+	+	37	49
+	+	41	39
+	+	37	44
+
+> ~/elixir-koans/lib/koans/02_strings.ex
+	"	45	2
+	^	43	46
+	.	43	45
+	+	7	28
+	+	11	43
+	+	15	35
+	+	19	58
+	+	23	86
+	+	27	61
+	+	31	18
+	+	15	34
+	+	35	52
+	+	39	63
+	+	43	45
+
+> ~/elixir-koans/lib/koans/01_equalities.ex
+	"	39	2
+	^	37	12
+	.	37	11
+	+	13	22
+	+	17	24
+	+	21	20
+	+	25	20
+	+	29	19
+	+	33	11
+	+	37	11
 
 > ~/Dockerfile
-	"	14	0
-	^	14	0
-	.	13	10
+	"	13	17
+	^	16	0
+	.	16	0
 	+	10	100
 	+	7	27
 	+	11	0
 	+	11	0
-	+	13	10
+	+	13	17
+	+	15	3
+	+	13	5
+	+	12	24
+	+	16	0
+
+> ~/docker-compose.yaml
+	"	18	24
+	^	18	25
+	.	18	24
+	+	13	0
+	+	18	24
